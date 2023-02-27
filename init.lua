@@ -72,7 +72,10 @@ require('lazy').setup({
 
   --nui--
   'MunifTanjim/nui.nvim',
-
+  
+  --devicons--
+  'nvim-tree/nvim-web-devicons',
+  
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
 
@@ -495,6 +498,7 @@ cmp.setup {
     { name = 'luasnip' },
   },
 }
+
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
